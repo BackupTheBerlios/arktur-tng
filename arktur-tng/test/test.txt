@@ -1,0 +1,35 @@
+TortoiseCVS Test von kirmse
+
+= Dokumentation =
+
+Einrichtung fuer Projekt Arktur-TNG
+
+1. http://www.tortoisecvs.org -> download (europaserver)
+2. installiern und rebooten
+3. explorer -> Verzeichnis arktur-tng generieren
+4. in arktur-tng verzeichnis gehen
+5. rechte maustaste -> CVS -> Make new Module
+6.
+  * Server: cvs.arktur-tng.berlios.de
+  * Repositry Dir: /cvsroot/arktur-tng
+  * User: kirmse
+  * Modulename: arktur-tng 
+  -> OK
+  -> Passwortabfrage
+
+
+Einzelbefehle fuer Dateien 
+(jeweils Klick rechte Maustaste)
+
+-> Add = neue Dateien hinzufuegen
+-> Update = geaenderte Dateien hochladen
+-> Checkout (Verzeichnis) = runterladen
+-> Remove = loeschen
+-> Add to .cvsignore = ignorieren von Datei beim Update/Hochladen
+
+-> Commit = alle Aenderungen werden aktiv, mit Kommentar
+
+das sollte das wichtigste beschreiben
+
+(Stephan Beyer)
+
